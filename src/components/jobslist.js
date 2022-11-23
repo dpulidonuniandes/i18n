@@ -40,14 +40,12 @@ const JobsList = () => {
         <thead className="table-dark">
           <tr>
             <th scope="col">#</th>
-            <th scope="col">
-            <FormattedMessage id="Position"/>
-            </th>
-            <th scope="col">Company</th>
-            <th scope="col">Salary</th>
-            <th scope="col">City</th>
-            <th scope="col">Publication date</th>
-            <th scope="col">Visits</th>
+            <th scope="col"><FormattedMessage id="Position"/></th>
+            <th scope="col"><FormattedMessage id="Company"/></th>
+            <th scope="col"><FormattedMessage id="Salary"/></th>
+            <th scope="col"><FormattedMessage id="City"/></th>
+            <th scope="col"><FormattedMessage id="PublicationDate"/></th>
+            <th scope="col"><FormattedMessage id="Visits"/></th>
           </tr>
         </thead>
         <tbody>

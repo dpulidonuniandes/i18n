@@ -6,7 +6,7 @@ import localeEsMessages from "./locales/es";
 import JobsList from "./components/jobslist";
 
 ReactDOM.render(
-    <IntlProvider locale="en-US" messages= {localeEsMessages}>
+    <IntlProvider locale={navigator.language} messages= {localeEsMessages}>
             <JobsList/>
     </IntlProvider>, document.getElementById("root")
 );
